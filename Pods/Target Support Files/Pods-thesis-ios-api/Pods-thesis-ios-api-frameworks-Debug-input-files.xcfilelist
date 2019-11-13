@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-thesis-ios-api/Pods-thesis-ios-api-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/Sniffer/Sniffer.framework
+${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework
