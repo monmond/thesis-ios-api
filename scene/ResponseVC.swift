@@ -1,9 +1,9 @@
 //
 //  ApiRequestVC.swift
-//  rtspplayer
+//  thesis-ios-api
 //
 //  Created by Sasawat Sankosik on 11/11/2562 BE.
-//  Copyright © 2562 Sasawat Sankosik. All rights reserved.
+//  Copyright © 2562 ssankosik. All rights reserved.
 //
 
 import UIKit

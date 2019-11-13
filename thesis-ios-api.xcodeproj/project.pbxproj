@@ -31,9 +31,9 @@
 		A466332F237BFB3100C0830E /* ApiRoutesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466332C237BFB3100C0830E /* ApiRoutesTVC.swift */; };
 		A4663330237BFB3100C0830E /* RequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466332D237BFB3100C0830E /* RequestVC.swift */; };
 		A4663331237BFB3100C0830E /* ResponseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466332E237BFB3100C0830E /* ResponseVC.swift */; };
-		A4663334237BFCA800C0830E /* AppDelegate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4663333237BFCA800C0830E /* AppDelegate+Extension.swift */; };
 		A4663336237BFD0C00C0830E /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4663335237BFD0C00C0830E /* App.swift */; };
 		A4663338237C046800C0830E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A4663337237C046800C0830E /* README.md */; };
+		A466335D237C0D2000C0830E /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A466335C237C0D2000C0830E /* AppConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,9 +65,9 @@
 		A466332C237BFB3100C0830E /* ApiRoutesTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRoutesTVC.swift; sourceTree = "<group>"; };
 		A466332D237BFB3100C0830E /* RequestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestVC.swift; sourceTree = "<group>"; };
 		A466332E237BFB3100C0830E /* ResponseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseVC.swift; sourceTree = "<group>"; };
-		A4663333237BFCA800C0830E /* AppDelegate+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Extension.swift"; sourceTree = "<group>"; };
 		A4663335237BFD0C00C0830E /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		A4663337237C046800C0830E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A466335C237C0D2000C0830E /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,6 @@
 			children = (
 				A4663335237BFD0C00C0830E /* App.swift */,
 				A46632F4237BF8E600C0830E /* AppDelegate.swift */,
-				A4663333237BFCA800C0830E /* AppDelegate+Extension.swift */,
 				A46632FD237BF8E800C0830E /* Assets.xcassets */,
 				A4663302237BF8E800C0830E /* Info.plist */,
 				A46632FF237BF8E800C0830E /* LaunchScreen.storyboard */,
@@ -142,8 +141,8 @@
 		A4663308237BFA5B00C0830E /* app */ = {
 			isa = PBXGroup;
 			children = (
-				A4663317237BFAAC00C0830E /* AppConstant */,
 				A4663309237BFA6600C0830E /* AppError.swift */,
+				A466335C237C0D2000C0830E /* AppConstant.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -167,13 +166,6 @@
 				A4663313237BFAA300C0830E /* FormConstant.swift */,
 			);
 			path = form;
-			sourceTree = "<group>";
-		};
-		A4663317237BFAAC00C0830E /* AppConstant */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = AppConstant;
 			sourceTree = "<group>";
 		};
 		A466331C237BFAFD00C0830E /* data */ = {
@@ -333,10 +325,10 @@
 				A4663324237BFB0500C0830E /* Api+Extension.swift in Sources */,
 				A466332B237BFB2600C0830E /* User.swift in Sources */,
 				A466332F237BFB3100C0830E /* ApiRoutesTVC.swift in Sources */,
-				A4663334237BFCA800C0830E /* AppDelegate+Extension.swift in Sources */,
 				A46632F9237BF8E600C0830E /* ViewController.swift in Sources */,
 				A46632F5237BF8E600C0830E /* AppDelegate.swift in Sources */,
 				A4663336237BFD0C00C0830E /* App.swift in Sources */,
+				A466335D237C0D2000C0830E /* AppConstant.swift in Sources */,
 				A4663327237BFB0500C0830E /* Api+Response.swift in Sources */,
 				A4663311237BFA8D00C0830E /* ImagePickerController.swift in Sources */,
 				A4663323237BFB0500C0830E /* Api+Parameter.swift in Sources */,

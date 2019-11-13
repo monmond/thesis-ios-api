@@ -1,6 +1,6 @@
-# thesis-ios-api
+# thesis-ios-rtsp
 ```
-thesis-ios-api
+thesis-ios-rtsp
 ```
 
 
